@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-science-hw1"
+version = "0.1.0"
+description = ""
+authors = ["PetroChulkov <114095841+PetroChulkov@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "data_science_hw1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^6.5.4"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
